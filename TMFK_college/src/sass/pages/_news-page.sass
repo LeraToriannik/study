@@ -1,0 +1,62 @@
+.news
+	margin: 0 auto
+	padding-top: 20px
+	&__title
+		width: 70%
+		margin: 0px auto 30px
+		font-weight: 600
+		font-size: 18px
+		line-height: 27px
+		text-align: center
+		vertical-align: middle
+	&__img
+		display: block
+		width: 80%
+		margin: 0 auto
+	&__text
+		width: 80%
+		margin: 15px auto
+		text-indent: 50px
+		font-style: normal
+		font-weight: 400
+		font-size: 18px
+		line-height: 29px
+		text-align: justify
+		color: #151515
+	&__data
+		margin: 80px auto 60px auto
+		width: 80%
+		text-align: right
+		font-weight: 200
+		font-size: 18px
+		line-height: 29px
+
+.info__link
+	cursor: pointer
+	color: #151515
+.info__link:hover
+	color: #C06014
+
+
+						
+@media (max-width: 900px)
+	.news
+		&__title
+			font-size: 16px
+			line-height: 24px
+			&__bg
+				height: 80px
+		&__text
+			font-size: 16px
+			line-height: 24px
+		&__data
+			font-size: 16px		
+
+
+@media (max-width: 570px)
+	.news
+		&__text
+			font-size: 12px
+			line-height: 18px
+		&__data
+			font-size: 12px		
